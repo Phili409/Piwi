@@ -1,0 +1,63 @@
+# Compiled cache files
+*.ji
+
+# Build logs
+/deps/build.log
+
+# Logs and debug files
+*.log
+/logs/
+
+# Data directories
+/data/raw/
+/data/processed/
+/data/simulations/
+
+# Output directories
+/output/
+
+# Secret configuration files
+.env
+/config/secrets.env
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE and editor directories
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Emacs backup files
+*~
+
+# Docker artifacts
+/docker/db_data/
+docker-compose.override.yml
+
+# Julia documentation build directories
+/docs/build/
+/docs/site/
+
+# Precompiled binaries and libraries
+*.dll
+*.so
+*.dylib
+*.dSYM
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Exclude Manifest.toml if not needed
+# Uncomment the following line if you choose to exclude Manifest.toml
+# Manifest.toml
+
+# Pluto notebook backups
+*.jl~
